@@ -1,1 +1,2 @@
 # TravelX
+This Travel Frontend Project is a responsive and user-friendly web interface designed to help users explore destinations and travel packages effortlessly. Built using HTML, CSS, and JavaScript, it features a clean layout with sections for popular places, offers, and trip details. The project focuses on delivering a visually appealing design and smooth browsing experience for anyone planning their next journey.
