@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Website Using HTML CSS AND JS</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 animate-item">
+  <div class="container">
+    <!-- Brand Name -->
+    <a href="index.html" class="navbar-brand">TravelX</a>
+
+    <!-- Toggle Button for Mobile View -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Proper collapse wrapper -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="pages.html" class="nav-link">Pages</a></li>
+        <li class="nav-item"><a href="location.html" class="nav-link">Location</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Logo on the right -->
+    <a href="index.html" class="navbar-brand d-none d-lg-block">
+      <img src="2.png" width="80px" alt="Logo">
+    </a>
+  </div>
+</nav>
+
+  <!--  Hero Section -->
+  <div class="container">
+    <div class="hero mt-5 text-center">
+      <h1 class="animate-item">EXPLORE</h1>
+      <img src="img-cloud.png" class="cloud-img animate-item d-block mx-auto" alt="Centre Image">
+      <img src="img-home.png" class="hero-img animate-item d-block mx-auto" alt="Hero Image">
+    </div>
+    <div class="world text-center mt-3">
+      <span class="animate-item">World</span>
+    </div>
+  </div>
+
+<!-- Introduction Section -->
+<section class="container my-5 text-center">
+  <h2 class="animate-item">Discover New Destinations</h2>
+  <p class="animate-item">
+    At TravelX, we help you explore the world with personalized experiences and handpicked destinations. Start your journey today!
+  </p>
+</section>
+
+<!-- Top Destinations Section -->
+<section class="container my-5">
+  <h2 class="text-center animate-item">Top Destinations</h2>
+  <div class="row text-center">
+    <div class="col-md-4 animate-item">
+      <img src="paris.jpg" class="img-fluid rounded" alt="Paris">
+      <h4 class="mt-2">Paris</h4>
+    </div>
+    <div class="col-md-4 animate-item">
+      <img src="bali.jpeg" style=" width: 250px" class="img-fluid rounded" alt="Bali">
+      <h4 class="mt-2">Bali</h4>
+    </div>
+    <div class="col-md-4 animate-item">
+      <img src="new york.jpeg" style= "width:400px" class="img-fluid rounded" alt="New York">
+      <h4 class="mt-2">New York</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="container my-5">
+  <h2 class="text-center animate-item">What Our Travellers Say</h2>
+  <div class="row">
+    <div class="col-md-6 animate-item">
+      <blockquote class="blockquote">
+        <p>"TravelX made my trip unforgettable!"</p>
+        <footer class="blockquote-footer">Aditi</footer>
+      </blockquote>
+    </div>
+    <div class="col-md-6 animate-item">
+      <blockquote class="blockquote">
+        <p>"Amazing guides and beautiful destinations!"</p>
+        <footer class="blockquote-footer">Rahul</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="text-center bg-light p-5 my-5">
+  <h2 class="animate-item">Ready to Start Your Journey?</h2>
+  <a href="#" class="btn btn-primary btn-lg mt-3 animate-item">Book Now</a>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-4">
+  <p>&copy; 2025 TravelX. All rights reserved.</p>
+</footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

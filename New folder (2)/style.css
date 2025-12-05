@@ -1,0 +1,134 @@
+/*----nav section----*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f0ff;
+    overflow-x: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: black !important;
+     font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #84a7cc !important;
+}
+
+/*----hero section---*/
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+    position: relative;
+    top: -50px;
+}
+
+.hero h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    color: #000;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -80px;
+}
+
+.cloud-img{
+    z-index: 1;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span{
+    font-size: 11rem;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 8px;
+}
+
+.hero-img{
+    z-index: 2;
+    width: 500px;
+    margin: 30px auto;
+    display: block;
+    position: absolute;
+    bottom: 95px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:100%;
+}
+
+/*---animation----*/
+
+.animate-item{
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animate-item.show{
+    opacity: 1;
+}
+
+/* --- Contact Page Section --- */
+
+.contact-section {
+  padding: 60px 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #005baa;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #003e7e;
+}
+.gallery-img {
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+.gallery-img.rotated {
+  transform: rotateY(180deg);
+}
+
+.country-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #005baa;
+}
